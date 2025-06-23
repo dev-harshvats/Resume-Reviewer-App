@@ -66,7 +66,7 @@ function App() {
 
     return (
         <div className="App">
-            <Header siteName="ResumeFlow" />
+            <Header siteName="ElevateCV" />
             
             <main>
                 <UploadSection
