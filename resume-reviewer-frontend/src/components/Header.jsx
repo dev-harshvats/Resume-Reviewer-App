@@ -1,7 +1,5 @@
 // src/components/Header.jsx
 import React from 'react';
-// No need to import App.css directly if it's imported in App.jsx or main.jsx
-// Styles are assumed to be global or imported by the parent.
 
 function Header({ siteName }) {
     return (

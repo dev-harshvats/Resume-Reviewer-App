@@ -1,0 +1,37 @@
+/* src/index.css */
+/* Removed previous :root background-color that might cause dark background */
+
+:root {
+  font-family: 'Poppins', sans-serif; /* Ensure Poppins from App.css is prioritized */
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark; /* This is a browser preference, not setting the color directly */
+  /* Remove 'color: rgba(255, 255, 255, 0.87);' and 'background-color: #242424;' from here */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the body background is consistently light as defined in App.css */
+/* We'll rely on App.css's body rule for the actual color */
+body {
+    min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary-accent); /* Use primary accent for global links */
+  text-decoration: none; /* Remove default underline */
+}
+a:hover {
+  color: var(--secondary-accent); /* Brighter hover for links */
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
